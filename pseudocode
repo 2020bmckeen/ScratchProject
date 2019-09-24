@@ -1,2 +1,56 @@
 When the green flag is clicked
-  Broadcast start
+Broadcast start
+When the green flag is clicked
+Go to the front layer
+Go to x:0 and y:0
+Show sprite 1
+Wait until the space key is pressed
+Hide sprite 1
+When the space key is pressed
+Switch the backdrop to Jurassic
+Stop this script
+When the green flag is clicked
+Set size of sprite dinosaur 4 to 75%
+When the green flag is clicked
+Hide sprite dinosaur 4
+Wait until the space key is pressed 
+show sprite dinosaur 4 
+When the space key is pressed
+switch the costume of sprite dinosaur 4 to dinosaur 4-a
+Forever loop
+  If the right arrow key or the left arrow key is pressed then
+    Switch costume of sprite dinosaur 4 to dinosaur 4-d
+When the space key is pressed
+Forever loop
+  If left arrow key is pressed then
+    Change x coordinate by -10
+  If right arrow key is pressed then
+    Change x coordinate by 10
+When the green flag is clicked
+Hide sprite meerkat2
+Wait until the space key is pressed
+Show sprite meerkat2
+When the green flag is clicked
+Set size of sprite meerkat 2 to 30%
+When the green flag is clicked
+Set the score variable to 0
+Forever loop
+  If sprite meerkat 2 is touching sprite dinosaur 4 then
+      Change score by 1
+      Go to random x position
+      Set y coordinate to 180
+When the space key is pressed
+Wait one second
+Have sprite meerkat2 say "Are you ready" for 2 seconds
+Wait one second
+Go to random position
+Set y coordiante to 180
+Forever loop
+  Change y coordinate by -1
+  If y position < -170 then
+    Go to random position
+    Set y to 180
+  If score > 10 then change y by -2
+If 'number or text' > 10 then change by -2
+If score > 10 then 
+  Change y by -2
